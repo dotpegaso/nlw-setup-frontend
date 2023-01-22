@@ -1,10 +1,14 @@
 import * as S from './styles'
+import { Header, HabitContainer } from '../../components'
 
 function Dashboard() {
   return (
-    <div>
-      <S.Text>hello world</S.Text>
-    </div>
+    <S.Container>
+      <S.InnerContainer>
+        <Header />
+        <HabitContainer />
+      </S.InnerContainer>
+    </S.Container>
   )
 }
 
